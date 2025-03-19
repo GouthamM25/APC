@@ -1,0 +1,38 @@
+Name: Goutham M
+Date: 27/11/24
+project: Arbitary Precision Calculator
+
+Sample inputs:
+1->
+goutham@LAPTOP-EV56C360:~/APC$ ./a.out 
+ERROR
+1. Addition     -> ./a.out op1 + op2
+2. Substraction -> ./a.out op1 - op2
+3. Multiply     -> ./a.out op1 X op2
+4. Division     -> ./a.out op1 / op2
+
+2->
+Addition
+goutham@LAPTOP-EV56C360:~/APC$ ./a.out 12345678914343533434234 + 12345673454323456
+Result = 12345691260016987757690
+goutham@LAPTOP-EV56C360:~/APC$ ./a.out -1234567891234 + -1234
+Result = -1234567892468
+
+3->
+Substraction
+goutham@LAPTOP-EV56C360:~/APC$ ./a.out 12345678914343533434234 - 12345673454323456
+Result = 12345666568670079110778
+goutham@LAPTOP-EV56C360:~/APC$ ./a.out 1234567891234 - -1234
+Result = 1234567892468
+
+4->
+Multiplication
+goutham@LAPTOP-EV56C360:~/APC$ ./a.out 12345678914343533434234 x 1234
+Result = 15234567780299920257844756
+
+5->
+Division
+goutham@LAPTOP-EV56C360:~/APC$ ./a.out 1234567891434353343423665654 / 13864
+Result = 089048463029021447159814
+goutham@LAPTOP-EV56C360:~/APC$ ./a.out 1234567891234 / 0
+Error: Division by zero is undefined.
